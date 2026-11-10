@@ -1,0 +1,19 @@
+{
+  "name": "medicare-lanka-clinic",
+  "version": "1.0.0",
+  "description": "MediCare Lanka - Full-Stack Clinic Management & EHR System",
+  "scripts": {
+    "dev": "node start-dev.js",
+    "start": "node backend/src/server.js",
+    "build": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  }
+}
