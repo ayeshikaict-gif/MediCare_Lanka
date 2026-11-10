@@ -1,11 +1,11 @@
-const { app, ensureInitialized } = require('./app');
+const app = require('./app');
 
 const PORT = process.env.PORT || 5000;
 
 const startServer = async () => {
   try {
     console.log('Initializing database schema and seed data...');
-    await ensureInitialized();
+    await app.ensureInitialized();
 
     app.listen(PORT, () => {
       console.log(`====================================================`);

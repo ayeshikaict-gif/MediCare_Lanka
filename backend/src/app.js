@@ -62,4 +62,6 @@ if (!process.env.VERCEL) {
   }
 }
 
-module.exports = { app, ensureInitialized };
+app.ensureInitialized = ensureInitialized;
+
+module.exports = app;

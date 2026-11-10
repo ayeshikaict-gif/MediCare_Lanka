@@ -2,7 +2,7 @@
   "name": "medicare-lanka-backend",
   "version": "1.0.0",
   "description": "Backend API for MediCare Lanka Clinic Management System",
-  "main": "src/server.js",
+  "main": "src/app.js",
   "type": "commonjs",
   "scripts": {
     "start": "node src/server.js",
